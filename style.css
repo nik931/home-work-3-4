@@ -1,0 +1,485 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/************************/
+
+
+
+
+body{
+font-family: 'Gotham Rounded Bold';
+background: #dddddd;
+}
+
+.wrapper{
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header{
+	background-image: url(./img/Livello.png);
+	height: 745px;
+}
+header ul{
+	padding-top: 40px;
+}
+header ul li{
+	display: inline;
+	padding-left: 80px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header ul li:first-child{
+	padding-left: 140px;
+}
+.items{
+	width: 70%;
+	margin: 0 auto;
+}
+.items h1{
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding-top: 245px;
+	letter-spacing: 5px;
+}
+.items p{
+	text-align: center;
+	color: #ffffff;
+	padding-top: 20px;
+	font-size: 16px;
+	font-family: 'Gotham Rounded Medium';
+	letter-spacing: 2px;
+}
+.items .buttons{
+	text-align: center;
+	margin-top: 50px;
+}
+.items .buttons a, .description .buttons a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #ffffff;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 22px 32px 22px 32px;	
+	background: #16a085;
+	border-radius: 2px;
+}
+.container2{
+	height: 492px;
+	background: #f5f6f7;
+}
+.container2 .description{
+	width: 30%;
+	padding-left: 130px;
+	display: inline-block;
+}
+.container2 .description h2{
+padding-top: 115px;
+text-transform: uppercase;
+color: #16a085;
+font-size: 18px;
+letter-spacing: 2px;
+line-height: 1.2;
+}
+.container2 .description p{
+padding-top: 50px;
+font-family: 'Gotham Rounded Book';
+font-size: 15px;
+color: #505051;
+line-height: 27px;
+letter-spacing: 1px;
+padding-bottom: 50px;
+}
+.container2 .description span{
+font-family: 'Gotham Rounded Bold';
+}
+.container2 .phone1{
+width: 50%;
+float: right;
+clear: both;
+padding-top: 85px;
+max-height: 406px;
+overflow: hidden;
+}
+.container2 .phone1 img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+.container3{
+height: 560px;
+background: #ffffff;
+}
+.container3 .phone2{
+	width: 30%;
+	max-height: 410px;
+	clear: both;
+	padding-top: 148px;
+	padding-left: 130px;
+	overflow: hidden;
+	display: inline-block;
+}
+.container3 .phone2 img{
+	object-fit: cover;
+}
+.container3 .description2{
+	width: 35%;
+	float: right;
+	padding-right: 10%;
+}
+.container3 .description2 h2{
+	padding-top: 148px;
+	text-transform: uppercase;
+	color: #16a085;
+	font-size: 18px;
+	letter-spacing: 4px;
+}
+.container3 .description2 p{
+	padding-top: 45px;
+	font-family: 'Gotham Rounded Book';
+	font-size: 15px;
+	color: #505051;
+	line-height: 27px;
+	padding-bottom: 65px;
+}
+.container3 .description2 span{
+	font-family: 'Gotham Rounded Bold';
+}
+.container3 .description2 a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #ffffff;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 22px 32px 22px 32px;	
+	background: #16a085;
+	border-radius: 2px;
+}
+.container4{
+	height: 486px;
+	background: #f5f6f7;
+	display: inline block;
+}
+.container4 .description3{
+	width: 13%;
+	text-align: center;
+	padding-left: 130px;
+	padding-top: 164px;
+}
+.container4 .description3 img{
+	object-fit: cover;
+	padding-left: 25px;
+}
+.container4 .description3 h2{
+    font-size: 15px;
+    letter-spacing: 2px;
+	padding-top: 30px;
+	text-transform: uppercase;
+}
+.container4 .description3 p{
+	padding-top: 30px;
+	font-size: 12px;
+	font-family: 'Gotham Rounded Medium';
+	color: #373737;
+	letter-spacing: 1px;
+	line-height: 14px;
+}
+.container4 .photo{
+	float: right;
+	padding-right: 128px;
+	margin-top: -200px;
+}
+.container4 img:first-child{
+	padding-right: 26px;
+}
+.container4 .photo img{
+	object-fit: cover;
+}
+.container5{
+	height: 790px;
+	background-image: url(./img/Livello3.png);
+	text-align: center;
+}
+.container5 h2{
+	padding-top: 350px;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #ffffff;
+	letter-spacing: 3px;
+	padding-bottom: 60px;
+}
+.container5 .amail{
+	text-align: center;
+}
+.container5 .amail a{
+	color: #505051;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Gotham Rounded Medium';
+	letter-spacing: 2px;
+	padding: 24px 160px 24px 20px;
+	background-color: #ffffff;
+	text-decoration: none;
+	border-radius: 3px;
+
+}
+.container5 .amail a:last-child{
+	margin-left: 20px;
+}
+.container5 .amail a svg{
+	position: relative;
+    left: 160px;
+    top: 24px;
+    font-size: 27px;
+    padding: 19px;
+	background: #16a085;
+	border-radius: 0px 3px 3px 0px;
+	color: #ffffff;
+}
+.container6{
+	height: 400px;
+	background-color: #f5f6f7;
+	margin: 0 auto;
+}
+
+.container6 h2{
+	padding-top: 90px;
+	font-size: 20px;
+	color: #373737;
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.container6 .desc{
+	width: 100%;
+	text-align:center;
+}
+
+.container6 p{
+	text-align: center;
+	width: 70%;
+	margin-left: 15%;
+	padding-top: 20px;
+	font-family: 'Gotham Rounded Medium';
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-size: 12px;
+	color: #444444;
+	line-height: 27px;
+	text-transform: uppercase;
+}
+.two_buttons {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.two_buttons a{
+	text-decoration: none;
+	padding: 25px 80px 20px 25px;
+	background-color: #1abc9c;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 2px;
+}
+
+.two_buttons a:last-child{
+	margin-left: 20px;
+}
+
+.two_buttons a svg{
+	position: relative;
+    left: 80px;
+    top: 20px;
+    font-size: 25px;
+    padding: 19px;
+	background: #16a085;
+	border-radius: 0 2px 2px 0;
+}
+.container7{
+	height: 130px;
+	background: #ffffff;
+}
+.container7 p{
+	font-size: 12px;
+	letter-spacing: 2px;
+	padding-left: 10%;
+	padding-top: 6%;;
+}
+@media(max-width: 1200px){
+	header .items ul li{
+	display: block;
+	padding-left: 0;
+	padding-top: 15px;
+	}
+	
+	header .items ul{
+	text-align: center;
+	}
+    header .items h1{
+	padding-top: 106px;
+	}
+	.container4{
+	height: 250px;
+	}
+	.container4 .photo{
+	display: none;
+	}
+	.container4 .description3{
+	width: 50%;
+	padding-left: 25%;
+	padding-top: 30px;
+	}
+}
+@media(max-width: 1045px){
+	.container3{
+	background-image: url(./img/iPhone-XS-Max-gold-inspired-idownloadblog-wallpaper-splash.jpg);
+	}
+	.container3 .phone2{
+	display: none;
+	}
+	.container3 .description2{
+	width: 60%;
+	float: left;
+	padding-left: 20%;
+	}
+	.container3 .description2 p{
+		color: #ffffff;
+	}
+}
+@media(max-width: 1030px){
+	.container2 .phone1{
+	display: none;
+	}
+	.container2 .description{
+	width: 65%;
+	padding-left: 17%;
+	}
+}
+@media(max-width: 650px){
+	.container6{
+		height: 430px;
+	}
+	.container6 p{
+	font-size: 10px;
+	}
+	.two_buttons a{
+	padding: 6px 15px 6px 6px;
+	}
+	
+	.two_buttons a:last-child{
+	margin-left: 20px;
+	}
+	
+	.two_buttons a svg{
+	left: 15px;
+	top: 8px;
+	font-size: 10px;
+	padding: 10px;
+	}
+}
+@media(max-width: 480px){
+	.container2{
+	height: 620px;
+	}
+}
+@media(max-width: 425px){
+	header .items h1{
+	font-size: 30px;
+	letter-spacing: 2px;
+	}
+	.container5{
+	height: 420px;
+	}
+	.container5 h2{
+	padding-top: 160px;
+	}
+	.container5 .amail a{
+	font-size: 10px;
+	padding: 12px 80px 12px 10px;	
+	}
+	.container5 .amail a:last-child{
+	margin-left: 20px;
+	}
+	.container5 .amail a svg{
+	left: 80px;
+	top: 12px;
+	font-size: 18px;
+	padding: 9px;
+	background: #16a085;
+	border-radius: 0px 3px 3px 0px;
+	color: #ffffff;
+	}
+}
+@media(max-width: 385px){
+	.container3{
+	height: 610px;
+	}
+	.container6{
+		height: 450px;
+	}
+	.two_buttons a{
+	font-size: 8px;
+	padding: 4px 16px 4px 4px;
+	}
+		
+	.two_buttons a:last-child{
+	margin-left: 20px;
+	}
+		
+	.two_buttons a svg{
+	left: 16px;
+	top: 5px;
+	font-size: 9px;
+	padding: 4px;
+	}
+}
+
